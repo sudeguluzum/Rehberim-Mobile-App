@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/p13"
+        android:id="@+id/baslik"
+        android:text="@string/aytFelsefe_baslik"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal"
+
+        />
+
+    <Button
+        android:id="@+id/btnGeri"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:drawablePadding="0dp"
+        android:gravity="center"
+        android:insetTop="5dp"
+        android:insetBottom="0dp"
+        android:padding="8dp"
+        app:icon="?attr/homeAsUpIndicator" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/baslik"
+        android:text="@string/aytFelsefecheckBox1" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox1"
+        android:text="@string/aytFelsefecheckBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox2"
+        android:text="@string/aytFelsefecheckBox3" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox3"
+        android:text="@string/aytFelsefecheckBox4" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox4"
+        android:text="@string/aytFelsefecheckBox5" />
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox5"
+        android:text="@string/aytFelsefecheckBox6" />
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox6"
+        android:text="@string/aytFelsefecheckBox7" />
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox7"
+        android:text="@string/aytFelsefecheckBox8" />
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox8"
+        android:text="@string/aytFelsefecheckBox9" />
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox9"
+        android:text="@string/aytFelsefecheckBox10" />
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox10"
+        android:text="@string/aytFelsefecheckBox11" />
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox11"
+        android:text="@string/aytFelsefecheckBox12" />
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox12"
+        android:text="@string/aytFelsefecheckBox13" />
+
+
+
+</RelativeLayout>
+    </ScrollView>
+    </RelativeLayout>

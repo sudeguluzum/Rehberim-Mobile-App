@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    >
+
+    <TextView
+        android:id="@+id/baslik"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/p13"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/deneme_baslik"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/btnGeri"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:drawablePadding="0dp"
+        android:gravity="center"
+        android:insetTop="5dp"
+        android:insetBottom="0dp"
+        android:padding="12dp"
+        app:icon="?attr/homeAsUpIndicator"
+
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/baslik"
+        android:layout_marginTop="30dp"
+
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="#b4deff">
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="@string/s2_sutun1"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="@string/s2_sutun2"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="@string/s2_sutun3"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="@string/s2_sutun4"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/baslik"
+        android:layout_marginTop="70dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:background="#7096d1">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="38dp"
+                android:padding="10dp"
+                android:text="@string/s3_sutun1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tyt_t_d"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/tyt_t_y"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/tyt_t_n"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#d0e3ff">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/s4_sutun1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tyt_m_d"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/tyt_m_y"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/tyt_m_n"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="30dp"
+            android:layout_height="38dp"
+            android:background="#7096d1">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="38dp"
+                android:padding="10dp"
+                android:text="@string/s5_sutun1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tyt_s_d"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/tyt_s_y"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/tyt_s_n"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="30dp"
+            android:layout_height="38dp"
+            android:background="#d0e3ff">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="38dp"
+                android:padding="10dp"
+                android:text="@string/s6_sutun1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tyt_f_d"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/tyt_f_y"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/tyt_f_n"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/baslik"
+        android:layout_marginTop="220dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="#334eac">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:text="@string/s7_sutun1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tytHesapla"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:textColor="#fff"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/btnTytHesapla"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/tytHesapla" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="#f7dbf0">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="@string/ayt_s2_sutun1"
+                android:gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:padding="10dp"
+                android:text="@string/s2_sutun2"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:padding="10dp"
+                android:text="@string/s2_sutun3"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:padding="10dp"
+                android:text="@string/s2_sutun4"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#f3a2be">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="38dp"
+                android:padding="10dp"
+                android:text="@string/ayt_s3_sutun1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ayt_e_d"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/ayt_e_y"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/ayt_e_n"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#ffd3dd">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="38dp"
+                android:padding="10dp"
+                android:text="@string/ayt_s4_sutun1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ayt_s_d"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/ayt_s_y"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/ayt_s_n"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="30dp"
+            android:layout_height="38dp"
+            android:background="#f3a2be">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="38dp"
+                android:padding="10dp"
+                android:text="@string/ayt_s5_sutun1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ayt_m_d"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/ayt_m_y"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/ayt_m_n"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="30dp"
+            android:layout_height="38dp"
+            android:background="#ffd3dd">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="38dp"
+                android:padding="10dp"
+                android:text="@string/s6_sutun1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ayt_f_d"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/ayt_f_y"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/ayt_f_n"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/baslik"
+        android:layout_marginTop="560dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="#e56399">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="@string/ayt_s7_sutun1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/aytHesapla"
+                android:layout_width="30dp"
+                android:layout_height="38dp"
+                android:ems="5"
+                android:inputType="text"
+                android:layout_gravity="start"
+                />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/btnAytHesapla"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/tytHesapla" />
+
+
+
+
+
+
+
+</RelativeLayout>

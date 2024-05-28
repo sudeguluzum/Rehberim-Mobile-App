@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/p13"
+        android:id="@+id/baslik"
+        android:text="@string/tyt_baslik"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal"
+
+        />
+
+    <Button
+        android:id="@+id/btnGeri"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:insetTop="5dp"
+        android:insetBottom="0dp"
+        app:icon="?attr/homeAsUpIndicator"
+        android:drawablePadding="0dp"
+        android:gravity="center"
+        android:padding="12dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnTytT"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/baslik"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/tyt_txt1" />
+
+    <Button
+        android:id="@+id/btnTytM"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnTytT"
+        android:text="@string/tyt_txt2" />
+
+    <Button
+        android:id="@+id/btnTytG"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnTytM"
+        android:text="@string/tyt_txt3" />
+
+    <Button
+        android:id="@+id/btnTytB"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnTytG"
+        android:text="@string/tyt_txt4" />
+    <Button
+        android:id="@+id/btnTytK"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnTytB"
+        android:text="@string/tyt_txt5" />
+
+    <Button
+        android:id="@+id/btnTytF"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnTytK"
+        android:text="@string/tyt_txt6" />
+
+    <Button
+        android:id="@+id/btnTytC"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnTytF"
+        android:text="@string/tyt_txt7" />
+
+    <Button
+        android:id="@+id/btnTytTarih"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnTytC"
+        android:text="@string/tyt_txt8" />
+
+    <Button
+        android:id="@+id/btnTytDin"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnTytTarih"
+        android:text="@string/tyt_txt9" />
+
+    <Button
+        android:id="@+id/btnTytFelsefe"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnTytDin"
+        android:text="@string/tyt_txt10" />
+
+    <!--
+            android:background="#e0b0ff"
+    -->
+
+
+</RelativeLayout>

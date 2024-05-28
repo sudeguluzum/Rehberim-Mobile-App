@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/p13"
+        android:id="@+id/baslik"
+        android:text="@string/ayt_baslik"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal"
+
+        />
+
+    <Button
+        android:id="@+id/btnGeri"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:insetTop="5dp"
+        android:insetBottom="0dp"
+        app:icon="?attr/homeAsUpIndicator"
+        android:drawablePadding="0dp"
+        android:gravity="center"
+        android:padding="12dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnIng"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/baslik"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/ayt_txt1" />
+
+    <Button
+        android:id="@+id/btnAlman"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnIng"
+        android:text="@string/ayt_txt2" />
+
+    <Button
+        android:id="@+id/btnFran"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/btnAlman"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/ayt_txt3" />
+
+    <Button
+        android:id="@+id/btnRus"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/btnFran"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/ayt_txt4" />
+
+    <Button
+        android:id="@+id/btnArap"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnRus"
+        android:text="@string/ayt_txt5" />
+
+    <Button
+        android:id="@+id/btnAytKimya"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnArap"
+        android:text="@string/ayt_txt6" />
+
+    <Button
+        android:id="@+id/btnAytFizik"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnAytKimya"
+        android:text="@string/ayt_txt7" />
+
+    <Button
+        android:id="@+id/btnAytBiyoloji"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnAytFizik"
+        android:text="@string/ayt_txt8" />
+
+    <Button
+        android:id="@+id/btnAytFelsefe"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnAytBiyoloji"
+        android:text="@string/ayt_txt9" />
+
+    <Button
+        android:id="@+id/btnAytDin"
+        android:layout_width="500dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/btnAytFelsefe"
+        android:text="@string/ayt_txt10" />
+
+
+</RelativeLayout>
