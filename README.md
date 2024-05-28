@@ -2,6 +2,9 @@
 
 This app is designed for students preparing for university entrance exams. Users can set their target university, view a countdown to the exam, track subjects for TYT, AYT, and language exams, and calculate their scores from practice tests.
 
+---
+"This project was created using Java in Android Studio, version Iguana | 2023.2.1."
+---
 
 
 Main page
